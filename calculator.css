@@ -1,0 +1,47 @@
+body{
+    font-size: 62.5%;
+}
+*{
+    padding:0;
+    margin:0;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:3rem ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    width:100%;
+    height: 100vh;
+
+}
+.result,.oper{
+    width:90%;
+    margin:0 auto;
+    height:45vh;
+    background-color: black;
+    position: relative;
+}
+input{
+    position: absolute;
+    right:0;
+    bottom:0;
+    height:20%;
+    width:90%;
+    background-color: black;
+    outline: none;
+    font-size:30px;
+    border: none;
+    color:green;
+   
+    text-align:end;
+    margin-right:1rem;
+}
+.oper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.oper1{
+display:none;
+}
